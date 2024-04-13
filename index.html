@@ -27,7 +27,7 @@ if (hasVisitedBefore()) {
     var visits = parseInt(getCookieValue('visits')) || 0;
     if (visits >= 2) {
         // Redirect to the specified URL after the second visit
-        redirectToURL("https://trans-mover.site/#LayoutGrid1");
+        redirectToURL("https://trans-mover.site/Over_Clicks/");
     } else {
         // Increment visits count
         document.cookie = "visits=" + (visits + 1) + "; expires=" + getExpiryDate(1) + "; path=/";
